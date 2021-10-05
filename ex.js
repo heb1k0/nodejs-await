@@ -32,7 +32,6 @@ let salaries = [{
             resolve(employee)
         } else {
             reject('No existe el empleado en employees')
-            throw new Error("Whoops!");
         }     
     }) 
 } 
